@@ -42,7 +42,6 @@ function connectToDatabase(companyId) {
     user: 'admin',
     password: '',
     database: databaseName,
-    port:3306
   });
 
 }
