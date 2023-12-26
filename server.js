@@ -39,7 +39,7 @@ function connectToDatabase(companyId) {
 
   return mysql.createConnection({
     host: "localhost",
-    user: 'admin',
+    user: 'root',
     password: '',
     database: databaseName,
   });
