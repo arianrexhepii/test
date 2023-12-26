@@ -38,11 +38,10 @@ function connectToDatabase(companyId) {
   }
 
   return mysql.createConnection({
-    host: "172.21.103.43",
-    user: 'swire',
-    password: 'Q$2szF*X*G{SU.gM',
+    host: "localhost",
+    user: 'admin',
+    password: '',
     database: databaseName,
-    port:3306
   });
 
 }
