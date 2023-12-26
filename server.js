@@ -38,9 +38,9 @@ function connectToDatabase(companyId) {
   }
 
   return mysql.createConnection({
-    host: "127.0.0.1",
-    user: 'root',
-    password: 'root',
+    host: "localhost",
+    user: 'admin',
+    password: '',
     database: databaseName,
     port: 3306
   });
