@@ -42,6 +42,7 @@ function connectToDatabase(companyId) {
     user: 'root',
     password: '',
     database: databaseName,
+    port: 3306
   });
 
 }
