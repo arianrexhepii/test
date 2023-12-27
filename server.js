@@ -38,10 +38,11 @@ function connectToDatabase(companyId) {
   }
 
  return mysql.createConnection({
-    host: "localhost",
+    host: '127.0.0.1',
     user: 'root',
     password: 'root',
     database: databaseName,
+    flags: '-4',
   });
 
 
