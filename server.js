@@ -37,13 +37,13 @@ function connectToDatabase(companyId) {
       throw new Error("Invalid company_id");
   }
 
-  return mysql.createConnection({
-    host: "127.0.0.1",
-    user: 'root',  // Update the username
-    password: 'root',  // Add your MySQL password here
+ return mysql.createConnection({
+    host: "localhost",
+    user: 'admin',
+    password: '',
     database: databaseName,
-    port: 3306
   });
+
 
 }
 
