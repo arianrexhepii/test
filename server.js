@@ -41,7 +41,7 @@ function connectToDatabase(companyId) {
     host: '172.16.178.110',
     user: 'dev',
     password: '?Abc123@',
-    database: swire,
+    database: databaseName,
    port: 3306
   });
 
