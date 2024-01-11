@@ -38,7 +38,7 @@ function connectToDatabase(companyId) {
   }
 
  return mysql.createConnection({
-    host: 'macdev.timekeeper-cloud.com',
+    host: '172.16.178.110',
     user: 'swire',
     password: 'Q$2szF*X*G{SU.gM',
     database: databaseName,
