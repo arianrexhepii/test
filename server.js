@@ -40,7 +40,7 @@ function connectToDatabase(companyId) {
  return mysql.createConnection({
     host: 'bnpcqfwc3m341ykhvkqh-mysql.services.clever-cloud.com',
     user: 'uvlm8kdgzlooq4yh',
-    password: 'PfD7rPWbxivDkK8r4cCR',
+    password: '6vqQHUlNeEtEdivVuutP',
     database: databaseName,
    port: 3306
   });
