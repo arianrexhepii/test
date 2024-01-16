@@ -22,7 +22,7 @@ function connectToDatabase(companyId) {
 
   switch (companyId) {
     case 'swire':
-      databaseName = 'swire';
+      databaseName = 'bnpcqfwc3m341ykhvkqh';
       break;
     case 'chevalier':
       databaseName = 'timemoto';
@@ -41,7 +41,7 @@ function connectToDatabase(companyId) {
     host: 'bnpcqfwc3m341ykhvkqh-mysql.services.clever-cloud.com',
     user: 'uvlm8kdgzlooq4yh',
     password: 'PfD7rPWbxivDkK8r4cCR',
-    database: bnpcqfwc3m341ykhvkqh,
+    database: databaseName,
    port: 3306
   });
 
