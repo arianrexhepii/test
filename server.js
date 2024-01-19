@@ -38,7 +38,7 @@ function connectToDatabase(companyId) {
   }
 
  return mysql.createConnection({
-    host: 'http://127.0.0.1',
+    host: 'localhost',
     user: 'swire',
     password: 'Q$2szF*X*G{SU.gM',
     database: databaseName,
