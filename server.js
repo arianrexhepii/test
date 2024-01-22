@@ -38,10 +38,10 @@ function connectToDatabase(companyId) {
   }
 
  return mysql.createConnection({
-    host: 'http://172.16.178.110',
-    user: 'swire',
-    password: 'Q$2szF*X*G{SU.gM',
-    database: databaseName,
+    host: 'bnpcqfwc3m341ykhvkqh-mysql.services.clever-cloud.com',
+    user: 'uvlm8kdgzlooq4yh',
+    password: '6vqQHUlNeEtEdivVuutP',
+    database: bnpcqfwc3m341ykhvkqh,
    port: 3306
   });
 
