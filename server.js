@@ -41,7 +41,7 @@ function connectToDatabase(companyId) {
     host: 'bnpcqfwc3m341ykhvkqh-mysql.services.clever-cloud.com',
     user: 'uvlm8kdgzlooq4yh',
     password: '6vqQHUlNeEtEdivVuutP',
-    database: bnpcqfwc3m341ykhvkqh,
+    database: 'bnpcqfwc3m341ykhvkqh',
    port: 3306
   });
 
